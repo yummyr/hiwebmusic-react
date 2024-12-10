@@ -1,12 +1,4 @@
 import React, { memo } from "react";
-<<<<<<< HEAD
-import "@/assets/css/reset.css";
-
-
-
-const App = memo(() => {
-  return <div>App</div>;
-=======
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "@/assets/css/reset.css";
@@ -28,7 +20,7 @@ const App = memo(() => {
     <AppFooter/>
     
     </BrowserRouter>)
->>>>>>> main
+
 });
 
 export default App;

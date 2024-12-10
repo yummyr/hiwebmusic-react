@@ -1,4 +1,5 @@
 export const headerLinks = [
+
   {
     title: "Find Music",
     link: "/"
@@ -13,17 +14,7 @@ export const headerLinks = [
   },
   {
     title: "Store",
-<<<<<<< HEAD
-    link: "https://music.163.com/store/product"
-  },
-  {
-    title: "Musician",
-    link: "https://music.163.com/nmusician/web/index#/"
-  },
-  {
-    title: "Download",
-    link: "https://music.163.com/#/download"
-=======
+
     link: "https://www.amazon.com/"
   },
   {
@@ -33,7 +24,7 @@ export const headerLinks = [
   {
     title: "Download",
     link: "https://www.google.com/"
->>>>>>> main
+
   }
 ]
 
@@ -41,23 +32,20 @@ export const headerLinks = [
 export const footerLinks = [
   {
     title: "Service",
-    link: "https://st.music.163.com/official-terms/service"
+    link: "/service"
   },
   {
     title: "Privacy",
-    link: "https://st.music.163.com/official-terms/privacy"
+    link: "/privacy"
+  },
+
+  {
+    title: "Contact",
+    link: "/contact"
   },
   {
-    title: "Children",
-    link: "https://st.music.163.com/official-terms/children"
-  },
-  {
-    title: "Complaints",
-    link: "https://music.163.com/st/staticdeal/complaints.html"
-  },
-  {
-    title: "Feedback",
-    link: "#"
+    title:"Company",
+    link:"/company"
   }
 ]
 

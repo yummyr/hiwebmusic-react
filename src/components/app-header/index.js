@@ -38,7 +38,7 @@ const AppHeader = memo(() => {
   return (
     <HeaderWrapper>
       <div className="content wrap-v1">
-        <HeaderLeft className="flex justify-center items-center space-x-4 ">
+        <HeaderLeft >
           <NavLink
             to="/"
             className="m-2 font-mono font-bold hover:text-blue-500"
@@ -50,7 +50,7 @@ const AppHeader = memo(() => {
             {headerLinks.map((item, index) => showSelectItem(item, index))}
           </div>
         </HeaderLeft>
-        <HeaderRight className="flex justify-center items-center space-x-4 ">
+        <HeaderRight >
           <div className="flex items-center bg-white border rounded-full px-4 py-2 w-56  shadow-md m-2">
             <CiSearch className="w-6 h-6" />
 
@@ -63,7 +63,7 @@ const AppHeader = memo(() => {
           <div>
             <button
               onClick={jumpToCreatorsCenter}
-              className="w-24 h-8 rounded-full m-2 text-white bg-slate-800"
+              className="w-24 rounded-full "
             >
               Creators Center
             </button>
@@ -71,7 +71,7 @@ const AppHeader = memo(() => {
           <div>
             <button
               onClick={jumpToLogin}
-              className="w-16 h-8 rounded-full m-2 text-white bg-slate-800"
+              className="w-16 rounded-full "
             >
               Login
             </button>

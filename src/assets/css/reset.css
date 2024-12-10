@@ -47,6 +47,10 @@ body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, sectio
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f5f5f5;
   }
+  .foot-route-h2 {
+    font-size: 14px;
+    margin: 50px;
+  }
   
   .text-nowrap {
     white-space: nowrap;
