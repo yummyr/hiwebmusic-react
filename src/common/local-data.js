@@ -13,15 +13,15 @@ export const headerLinks = [
   },
   {
     title: "Store",
-    link: "https://music.163.com/store/product"
+    link: "https://www.amazon.com/"
   },
   {
     title: "Musician",
-    link: "https://music.163.com/nmusician/web/index#/"
+    link: "https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu3C"
   },
   {
     title: "Download",
-    link: "https://music.163.com/#/download"
+    link: "https://www.google.com/"
   }
 ]
 
